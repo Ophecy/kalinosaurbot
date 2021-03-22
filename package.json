@@ -1,0 +1,20 @@
+{
+	"name": "minecraft-get-status-bot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node bot.js",
+		"dev": "nodemon bot.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"discord.js": "^12.5.1",
+		"minecraft-server-util": "^3.4.4"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0"
+	}
+}
